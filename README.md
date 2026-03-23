@@ -2,13 +2,8 @@
 
 
 
-## 技術棧 (Tech Stack)
-
-- \*\*Frontend:\*\* Vue 3, TypeScript, Vite, Bootstrap 5
-
-- \*\*Backend:\*\* .NET 8 Web API, Entity Framework Core
-
-- \*\*Database:\*\* SQL Server
+##使用工具
+-vue3+.net Web API
 
 
 ## 🛠️ 目前已完成功能
@@ -23,5 +18,5 @@
 
 
 
-![客戶管理功能展示](https://github.com/Cheng-Yi0412/CustomersRepair/raw/main/assets/homepage.png)
+![客戶管理功能展示](.assets/homepage.png)
 
