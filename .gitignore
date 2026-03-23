@@ -1,0 +1,16 @@
+# Node.js (前端)
+node_modules/
+dist/
+
+# .NET (後端)
+bin/
+obj/
+*.user
+#本地端目前不需要
+|
+V
+#appsettings.Development.json
+
+# 編輯器
+.vscode/
+.idea/

@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cheng\\Desktop\\\u5BA2\u6236\u7DAD\u4FEE\u7BA1\u7406\u7CFB\u7D71\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE3AD71-0CC6-41E9-9912-E0BAE907D841}|Backend\\Backend.csproj|c:\\users\\cheng\\desktop\\\u5BA2\u6236\u7DAD\u4FEE\u7BA1\u7406\u7CFB\u7D71\\backend\\backend\\controllers\\customercontroller.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE3AD71-0CC6-41E9-9912-E0BAE907D841}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\customercontroller.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE3AD71-0CC6-41E9-9912-E0BAE907D841}|Backend\\Backend.csproj|c:\\users\\cheng\\desktop\\\u5BA2\u6236\u7DAD\u4FEE\u7BA1\u7406\u7CFB\u7D71\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE3AD71-0CC6-41E9-9912-E0BAE907D841}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE3AD71-0CC6-41E9-9912-E0BAE907D841}|Backend\\Backend.csproj|c:\\users\\cheng\\desktop\\\u5BA2\u6236\u7DAD\u4FEE\u7BA1\u7406\u7CFB\u7D71\\backend\\backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE3AD71-0CC6-41E9-9912-E0BAE907D841}|Backend\\Backend.csproj|solutionrelative:backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cheng\\Desktop\\\u5BA2\u6236\u7DAD\u4FEE\u7BA1\u7406\u7CFB\u7D71\\Backend\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\cheng\\Desktop\\\u5BA2\u6236\u7DAD\u4FEE\u7BA1\u7406\u7CFB\u7D71\\Backend\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T17:31:19.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerController.cs.cs",
+              "DocumentMoniker": "C:\\Users\\cheng\\Desktop\\\u5BA2\u6236\u7DAD\u4FEE\u7BA1\u7406\u7CFB\u7D71\\Backend\\Backend\\Controllers\\CustomerController.cs.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\CustomerController.cs.cs",
+              "ToolTip": "C:\\Users\\cheng\\Desktop\\\u5BA2\u6236\u7DAD\u4FEE\u7BA1\u7406\u7CFB\u7D71\\Backend\\Backend\\Controllers\\CustomerController.cs.cs",
+              "RelativeToolTip": "Backend\\Controllers\\CustomerController.cs.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAiwDsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T13:16:59.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\cheng\\Desktop\\\u5BA2\u6236\u7DAD\u4FEE\u7BA1\u7406\u7CFB\u7D71\\Backend\\Backend\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Backend\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\cheng\\Desktop\\\u5BA2\u6236\u7DAD\u4FEE\u7BA1\u7406\u7CFB\u7D71\\Backend\\Backend\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Backend\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T17:07:55.573Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
