@@ -18,5 +18,5 @@
 
 
 
-![客戶管理功能展示](.assets/homepage.png)
+![客戶管理功能展示](./assets/homepage.png)
 
