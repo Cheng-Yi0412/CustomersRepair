@@ -11,8 +11,8 @@ namespace Backend.Data
         {
         }
 
-        // 關鍵：這行代表你要在資料庫建立一張叫 Customer 的表
-        // 格式參考你的 Customer.cs 類別
+        // 這行代表你要在資料庫建立一張叫 Customer 的表
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<Repair> Repairs { get; set; }
     }
 }

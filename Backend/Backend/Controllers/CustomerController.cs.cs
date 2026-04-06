@@ -23,27 +23,30 @@ namespace Backend.Controllers
             var customers = await _context.Customers.ToListAsync();
             return Ok(customers);
         }
-        [HttpPut("{id}")] // 對應前端的 `/Customer/${id}`
+
+        [HttpPut("{id}")] // 對應前端的 `/Customer/${customeId}`
         public async Task<IActionResult> UpdateCustomer(int id, Customer customer)
         {
-            // 1. 安全檢查：確認網址上的 ID 跟傳過來的物件 ID 是否一致
-            // 這是為了防止「拿 A 的號碼牌改 B 的資料」
+            //安全檢查：確認網址上的 ID 跟傳過來的物件 ID 是否一致            
             if (id != customer.CustomerId)
             {
                 return BadRequest("ID 不符");
             }
-
-            // 2. 告訴 Entity Framework：這筆資料已經被動過了，請準備更新它
+            if (string.IsNullOrWhiteSpace(customer.CTEL))
+            {
+                return BadRequest("電話號碼不能為空");
+            }
+            //告訴 Entity Framework：這筆資料已經被動過了，請準備更新它
             _context.Entry(customer).State = EntityState.Modified;
 
             try
             {
-                // 3. 真正執行 SQL 的 UPDATE 動作
+                //真正執行 SQL 的 UPDATE 動作
                 await _context.SaveChangesAsync();
             }
             catch (DbUpdateConcurrencyException)
             {
-                // 4. 防呆：萬一存檔時，這筆資料剛好被別的同事刪掉了
+                //防呆
                 if (!_context.Customers.Any(e => e.CustomerId == id))
                 {
                     return NotFound("找不到該客戶資料");
@@ -52,11 +55,20 @@ namespace Backend.Controllers
                 {
                     throw;
                 }
-            }
+            }           
 
-            // 5. 回傳 204 No Content，代表「成功了，但我不需要回傳額外資料」
+            //回傳 204 No Content，代表「成功了，但我不需要回傳額外資料」
             // 前端 Axios 會收到 status 204
             return NoContent();
         }
+
+        [HttpPost]
+        public async Task<ActionResult<IEnumerable<Customer>>> PostCustomers(Customer customer)
+        {
+            _context.Customers.Add(customer);
+            await _context.SaveChangesAsync();
+            return CreatedAtAction("GetCustomer", new { id = customer.CustomerId }, customer);
+        }
+
     }
 }

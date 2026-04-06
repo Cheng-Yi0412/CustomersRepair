@@ -8,8 +8,10 @@ namespace Backend.Models
     {
         [Key]
         public int CustomerId { get; set; }
-        public string? CNA { get; set; } 
-        public string? CTEL { get; set; } 
+        public string? CNA { get; set; }
+
+        [Required(ErrorMessage = "電話為必填欄位")]
+        public string CTEL { get; set; } = string.Empty;
         public string? CTEL1 { get; set; } 
         public string? CSKIND { get; set; } 
         public string? CADDR { get; set; } 
